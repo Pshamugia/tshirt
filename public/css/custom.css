@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+@font-face {
+    font-family: 'arial';
+    src: url('../fonts/bpg_boxo-boxo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/bpg_boxo-boxo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'alk-rounded';
+    src: url('../fonts/alk-rounded-mtav-med-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('../fonts/Lobster-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+
+@font-face {
+    font-family: 'EricaOne';
+    src: url('../fonts/EricaOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'GloriaHallelujah';
+    src: url('../fonts/GloriaHallelujah-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+
+@font-face {
+    font-family: 'RubikBubbles';
+    src: url('../fonts/RubikBubbles-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'BerkshireSwash';
+    src: url('../fonts/BerkshireSwash-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'Monoton';
+    src: url('../fonts/Monoton-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+@font-face {
+    font-family: 'Creepster';
+    src: url('../fonts/GloriaHallelujah-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url('../fonts/BlackOpsOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+
+@font-face {
+    font-family: 'PlaywriteIN';
+    src: url('../fonts/PlaywriteIN-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+ 
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+ 
+}
+
+#design-area { 
+    position: relative;
+}
+
+ 
+
+select, input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.text-style-btn {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.text-style-btn i {
+    pointer-events: none;
+}
+
+
+ 
