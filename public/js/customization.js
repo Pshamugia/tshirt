@@ -1,6 +1,97 @@
 document.addEventListener("DOMContentLoaded", function () {
     const canvas = new fabric.Canvas("tshirtCanvas");
     
+
+    document.querySelectorAll(".clipart-img").forEach(img => {
+        img.addEventListener("click", function () {
+            let clipartUrl = this.getAttribute("data-image");
+
+            fabric.Image.fromURL(clipartUrl, function (img) {
+                // Ensure the image does not cover the entire t-shirt
+                let maxWidth = canvas.width * 0.4;  // Max 40% of canvas width
+                let maxHeight = canvas.height * 0.4; // Max 40% of canvas height
+
+                // Scale the image proportionally
+                let scaleFactor = Math.min(maxWidth / img.width, maxHeight / img.height);
+
+                img.set({
+                    left: canvas.width / 2 - (img.width * scaleFactor) / 2, // Center horizontally
+                    top: canvas.height / 2 - (img.height * scaleFactor) / 2, // Center vertically
+                    scaleX: scaleFactor,
+                    scaleY: scaleFactor,
+                    selectable: true // Allow resizing & moving
+                });
+
+                canvas.add(img);
+                canvas.setActiveObject(img);
+            });
+        });
+    });
+
+
+
+
+    
+
+    var clipartCategoryDropdown = document.getElementById("clipartCategory");
+    var clipartImages = document.querySelectorAll(".clipart-img");
+
+    clipartCategoryDropdown.addEventListener("change", function () {
+        let selectedCategory = this.value;
+
+        clipartImages.forEach(img => {
+            if (selectedCategory === "all" || img.dataset.category === selectedCategory) {
+                img.style.display = "block"; // Show matching cliparts
+            } else {
+                img.style.display = "none";  // Hide non-matching ones
+            }
+        });
+    });
+
+
+    var uploadSidebar = document.getElementById("uploadSidebar");
+    var uploadButton = document.getElementById("toggleUploadSidebar");
+    var closeUploadButton = document.getElementById("closeUploadSidebar");
+
+    // Open Upload Sidebar
+    uploadButton.addEventListener("click", function () {
+        uploadSidebar.classList.add("open");
+    });
+
+    // Close Upload Sidebar
+    closeUploadButton.addEventListener("click", function () {
+        uploadSidebar.classList.remove("open");
+    });
+
+
+    /// Close Upload Sidebar (Fix: Prevent Refresh)
+    closeUploadButton.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevents form submission
+        uploadSidebar.classList.remove("open");
+    });
+
+     // Close Upload Sidebar when clicking anywhere outside of it
+     document.addEventListener("click", function (event) {
+        var isClickInside = uploadSidebar.contains(event.target) || uploadButton.contains(event.target);
+
+        if (!isClickInside) {
+            uploadSidebar.classList.remove("open");
+        }
+    });
+    // Handle Image Upload Preview
+    document.getElementById("uploaded_image").addEventListener("change", function (event) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            var img = document.createElement("img");
+            img.src = reader.result;
+            document.getElementById("imagePreviewContainer").innerHTML = "";
+            document.getElementById("imagePreviewContainer").appendChild(img);
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    });
+
+
+    
     // Get the product image source
     const imgElement = document.getElementById('product-image');
 
@@ -62,14 +153,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Handle text selection and update UI elements
     canvas.on('mouse:down', function (options) {
-        if (options.target === topTextObject || options.target === bottomTextObject) {
+        if (options.target && (options.target === topTextObject || options.target === bottomTextObject)) {
             activeTextObject = options.target;
-            document.getElementById("text_color").value = activeTextObject.fill;
-            document.getElementById("font_family").value = activeTextObject.fontFamily;
-        } else {
-            activeTextObject = null;  // Reset active text if clicked outside
+            console.log("Text clicked:", activeTextObject.text);
         }
     });
+    
+    
     
 
     // Handle text input changes
@@ -82,6 +172,17 @@ document.addEventListener("DOMContentLoaded", function () {
         bottomTextObject.set({ text: this.value });
         canvas.renderAll();
     });
+
+
+    canvas.on('object:selected', function (event) {
+        let activeText = event.target;
+        if (activeText && activeText.text.trim() === "") {
+            console.log("Preventing text disappearance on selection");
+            activeText.set("text", " ");
+            canvas.renderAll();
+        }
+    });
+    
 
     // Handle font change
     document.getElementById("font_family").addEventListener("change", function () {
@@ -180,9 +281,9 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
     
-        let text = textObj.text || "Sample";
-        let radius = 80;  // Smaller radius for better fitting
-        let spacing = Math.max(5, 150 / text.length);  // Improved spacing
+        let text = textObj.text || " ";
+        let radius = 80;
+        let spacing = Math.max(5, 150 / text.length);
     
         textObj.set("path", null);  // Clear existing path
     
@@ -199,11 +300,16 @@ document.addEventListener("DOMContentLoaded", function () {
             pathAlign: 'center',
             charSpacing: spacing * 10,
             originX: 'center',
-            originY: 'center',
+            left: canvas.width / 2
         });
+    
+        console.log("Curved effect applied to:", textObj.text);
     
         canvas.renderAll();
     }
+    
+    
+    
     
     
 
@@ -216,7 +322,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (activeText) {
             applyCurvedTextEffect(activeText);
         } else {
-            alert("Please select the text first.");
+            alert("მონიშნე ტექსტი.");
         }
     });
 
@@ -225,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             let activeText = canvas.getActiveObject();
             if (!activeText) {
-                alert("Please select text first!");
+                alert("მონიშნე ტექსტი!");
                 return;
             }
     
@@ -280,58 +386,89 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
 
-    document.getElementById("top_text").addEventListener("input", function () {
-        let activeText = canvas.getActiveObject();
-        if (activeText) {
-            let newText = this.value.trim();
-            if (newText === "") {
-                activeText.set("text", " ");
-            } else {
-                activeText.set("text", newText);
-            }
-            adjustCurvedTextBoundingBox(activeText);
-            canvas.renderAll();
-        }
-    });
+    
     
     
     function initializeTextInputs() {
         document.getElementById("top_text").addEventListener("input", function () {
-            if (activeTextObject === topTextObject) {
-                let newText = this.value.trim();
+            let newText = this.value.trim();
+        
+            if (topTextObject) {
                 if (newText === "") {
-                    topTextObject.set("text", " ");
+                    topTextObject.set("text", " ");  // Keep at least a space
                 } else {
                     topTextObject.set("text", newText);
                 }
+        
+                // Ensure text stays centered
+                topTextObject.set({
+                    originX: "center",
+                    left: canvas.width / 2
+                });
+        
+                if (topTextObject.path) {
+                    applyCurvedTextEffect(topTextObject); // Reapply curve if needed
+                }
+        
                 canvas.renderAll();
             }
         });
-    
+        
+        
         document.getElementById("bottom_text").addEventListener("input", function () {
-            if (activeTextObject === bottomTextObject) {
-                let newText = this.value.trim();
+            let newText = this.value.trim();
+        
+            if (bottomTextObject) {
                 if (newText === "") {
                     bottomTextObject.set("text", " ");
                 } else {
                     bottomTextObject.set("text", newText);
                 }
+        
+                bottomTextObject.set({
+                    originX: "center",
+                    left: canvas.width / 2
+                });
+        
+                if (bottomTextObject.path) {
+                    applyCurvedTextEffect(bottomTextObject);
+                }
+        
                 canvas.renderAll();
             }
         });
+        
+        
     }
     
     // Call this function initially and after each style change
     initializeTextInputs();
     
     
+    const colorButtons = document.querySelectorAll(".color-select-btn");
+    const productImage = document.getElementById("product-image");
 
+    colorButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            let newImage = this.getAttribute("data-image");
+
+            // Change the t-shirt preview
+            productImage.src = newImage;
+        });
+    });
+
+    document.querySelectorAll('.color-btn').forEach(button => {
+        button.addEventListener('click', function () {
+            let frontImage = this.getAttribute('data-front');
+            document.getElementById('product-image').src = frontImage;
+        });
+    });
      
     
     function applyTextStyle(style) {
         let activeText = canvas.getActiveObject();
         if (!activeText) {
-            alert("Please select text first!");
+            alert("მონიშნე ტექსტი");
             return;
         }
     
@@ -398,4 +535,44 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("customizationForm").submit();
     });
+
+
+
+     
+    
+    function fetchCliparts(category) {
+        fetch(`/api/cliparts?category=${category}`)
+            .then(response => response.json())
+            .then(data => {
+                let container = document.getElementById("clipartContainer");
+                container.innerHTML = "";
+                data.forEach(clipart => {
+                    let img = document.createElement("img");
+                    img.src = "/storage/" + clipart.image;
+                    img.classList.add("clipart-item");
+                    img.onclick = function () {
+                        addClipartToCanvas(img.src);
+                    };
+                    container.appendChild(img);
+                });
+            });
+    }
+
+
+
+     
+    
+    function addClipartToCanvas(imageUrl) {
+        fabric.Image.fromURL(imageUrl, function (img) {
+            img.set({
+                left: 100,
+                top: 100,
+                hasControls: true
+            });
+            canvas.add(img);
+            canvas.renderAll();
+        });
+    }
+
+    
 });

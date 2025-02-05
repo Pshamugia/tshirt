@@ -19,7 +19,23 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">საწყისი</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('cart.index') }}">კალათა</a></li>
-                </ul>
+                    @guest
+                    <!-- Show Login & Register when not logged in -->
+                    <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('register') }}">Register</a></li>
+                @else
+                    <!-- Show Logout when logged in -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('logout') }}" 
+                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            Logout
+                        </a>
+                    </li>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                @endguest
+            </ul>
             </div>
         </div>
     </nav>
@@ -28,11 +44,28 @@
         @yield('content')
     </div>
 
-    <!-- Fabric.js Library -->
-     <script src="{{ asset('js/customization.js') }}"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/fabric-curved-text/dist/fabric.curvedText.js"></script>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-1">&copy; {{ date('Y') }} SHENTVITON.GE - All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="{{ route('home') }}" class="text-white">Home</a></li>
+                <li class="list-inline-item"><a href="{{ route('cart.index') }}" class="text-white">Cart</a></li>
+                <li class="list-inline-item"><a href="{{ route('home') }}#contact" class="text-white">Contact</a></li>
+            </ul>
+            <p class="mt-2">
+                Follow us on:
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </p>
+        </div>
+    </footer>
 
+    <!-- Fabric.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+
+     <script src="{{ asset('js/customization.js') }}"></script>
+ 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

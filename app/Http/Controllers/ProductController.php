@@ -2,84 +2,99 @@
 
 namespace App\Http\Controllers;
 
+ 
+use App\Models\ProductColor;
+use App\Models\Clipart;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    public function create()
+    {
+        return view('admin.products.create');
+    }
+    
     public function index()
     {
         $products = Product::all();
-        return view('products.index', compact('products'));
+        return view('admin.products.index', compact('products')); // Update path
     }
+    
 
-    public function create()
-    {
-        return view('products.create');
-    }
-
-    public function store(Request $request)
-{
-    $request->validate([
-        'title' => 'required|string|max:255',
-        'description' => 'required|string',
-        'price' => 'required|numeric',
-        'quantity' => 'required|integer',
-        'size' => 'required|string',
-        'image1' => 'nullable|image|max:2048',
-        'full_text' => 'nullable|string',
-    ]);
-
-    $product = new Product();
-    $product->title = $request->title;
-    $product->description = $request->description;
-    $product->full_text = $request->input('full_text', 'Default text');
-
-    $product->price = $request->price;
-    $product->quantity = $request->quantity;
-    $product->size = $request->size;
-
-    // Handle images if uploaded
-    if ($request->hasFile('image1')) {
-        $product->image1 = $request->file('image1')->store('products', 'public');
-    }
-    if ($request->hasFile('image2')) {
-        $product->image2 = $request->file('image2')->store('products', 'public');
-    }
-    if ($request->hasFile('image3')) {
-        $product->image3 = $request->file('image3')->store('products', 'public');
-    }
-    if ($request->hasFile('image4')) {
-        $product->image4 = $request->file('image4')->store('products', 'public');
-    }
-
-    $product->save();
-
-    return redirect()->route('products.index')->with('success', 'Product created successfully!');
-}
-
-
-    public function show($id)
+    public function edit($id)
 {
     $product = Product::findOrFail($id);
-    return view('products.show', compact('product'));
+    return view('admin.products.edit', compact('product'));
 }
+
+
+public function store(Request $request)
+{
+    $product = Product::create([
+        'title' => $request->title,
+        'description' => $request->description,
+        'full_text' => $request->full_text,
+        'size' => $request->size,
+        'quantity' => $request->quantity,
+        'price' => $request->price,
+        'image1' => $request->file('image1')->store('products', 'public'),
+        'image2' => $request->file('image2') ? $request->file('image2')->store('products', 'public') : null,
+        'image3' => $request->file('image3') ? $request->file('image3')->store('products', 'public') : null,
+        'image4' => $request->file('image4') ? $request->file('image4')->store('products', 'public') : null,
+    ]);
+
+    if ($request->has('colors')) {
+        foreach ($request->colors as $color) {
+            ProductColor::create([
+                'product_id' => $product->id,
+                'color_name' => $color['color_name'],
+                'color_code' => $color['color_code'],
+                'front_image' => $color['front_image']->store('colors', 'public'),
+            ]);
+        }
+    }
+
+    return redirect()->route('admin.products.index')->with('success', 'Product added successfully');
+}
+
+
+
+public function show($id)
+{
+    $product = Product::with('colors')->find($id);
+    $cliparts = Clipart::all(); // Ensure you fetch cliparts
+    $product->load('colors'); // ✅ Force load colors manually
+
+    return view('products.show', compact('product', 'cliparts'));
+}
+
+
 
 
 
 public function customize($id)
 {
-    $product = Product::findOrFail($id);
+    $product = Product::where('id', $id)->with('colors')->firstOrFail();
+    $cliparts = Clipart::all();
 
-    // Fetch pre-made images for selection
-    $preMadeImages = [
-        asset('images/design1.png'),
-        asset('images/design2.png'),
-        asset('images/design3.png'),
-    ];
+    // 🔥 Convert to array to prevent Blade issues
+    $productArray = $product->toArray();
 
-    return view('products.customize', compact('product', 'preMadeImages'));
+    return view('products.customize', compact('productArray', 'cliparts', 'product'));
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 public function saveCustomization(Request $request, $id)
 {
@@ -106,6 +121,14 @@ public function saveCustomization(Request $request, $id)
     return back()->with('success', 'Your design has been saved!');
 }
 
+
+public function destroy($id)
+{
+    $product = Product::findOrFail($id);
+    $product->delete();
+
+    return redirect()->route('admin.products.index')->with('success', 'Product deleted successfully');
+}
 
 
 }
