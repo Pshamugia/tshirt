@@ -75,36 +75,41 @@
 </div>
 
 <script>
-document.getElementById('addColor').addEventListener('click', function () {
-    let colorContainer = document.getElementById('colorSelection');
-    let colorIndex = colorContainer.children.length;
-
-    let colorBlock = document.createElement('div');
-    colorBlock.classList.add('color-block');
-    colorBlock.innerHTML = `
-        <div class="mb-2">
-            <label>Color Name</label>
-            <input type="text" name="colors[${colorIndex}][color_name]" class="form-control" required>
-        </div>
-        <div class="mb-2">
-            <label>Color Code</label>
-            <input type="color" name="colors[${colorIndex}][color_code]" class="form-control" required>
-        </div>
-        <div class="mb-2">
-            <label>Upload Front Image</label>
-            <input type="file" name="colors[${colorIndex}][front_image]" class="form-control" accept="image/*">
-        </div>
-        <button type="button" class="btn btn-danger remove-color">Remove</button>
-    `;
-
-    colorContainer.appendChild(colorBlock);
-
-    // Remove color block when clicked
-    colorBlock.querySelector('.remove-color').addEventListener('click', function () {
-        colorBlock.remove();
+    document.getElementById('addColor').addEventListener('click', function () {
+        let colorContainer = document.getElementById('colorSelection');
+        let colorIndex = colorContainer.children.length;
+    
+        let colorBlock = document.createElement('div');
+        colorBlock.classList.add('color-block');
+        colorBlock.innerHTML = `
+            <div class="mb-2">
+                <label>Color Name</label>
+                <input type="text" name="colors[${colorIndex}][color_name]" class="form-control" required>
+            </div>
+            <div class="mb-2">
+                <label>Color Code</label>
+                <input type="color" name="colors[${colorIndex}][color_code]" class="form-control" required>
+            </div>
+            <div class="mb-2">
+                <label>Upload Front Image</label>
+                <input type="file" name="colors[${colorIndex}][front_image]" class="form-control" accept="image/*" required>
+            </div>
+            <div class="mb-2">
+                <label>Upload Back Image</label>
+                <input type="file" name="colors[${colorIndex}][back_image]" class="form-control" accept="image/*" required>
+            </div>
+            <button type="button" class="btn btn-danger remove-color">Remove</button>
+        `;
+    
+        colorContainer.appendChild(colorBlock);
+    
+        // Remove color block when clicked
+        colorBlock.querySelector('.remove-color').addEventListener('click', function () {
+            colorBlock.remove();
+        });
     });
-});
-</script>
+    </script>
+    
 
 
 @endsection

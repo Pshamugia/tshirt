@@ -51,6 +51,8 @@ public function store(Request $request)
                 'color_name' => $color['color_name'],
                 'color_code' => $color['color_code'],
                 'front_image' => $color['front_image']->store('colors', 'public'),
+                'back_image' => $color['back_image']->store('colors', 'public'),
+
             ]);
         }
     }
