@@ -13,7 +13,6 @@
         'resources/js/app.js',
         'resources/js/product.js',
         'resources/css/sass/app.scss',
-        'resources/css/custom.css',
         'resources/css/app.css'
         ])
 </head>
