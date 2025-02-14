@@ -185,11 +185,9 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
     state.current_image_url = imageURL;
 
     if (type === "pos") {
-        console.log("changing pos");
         let obj_state = localStorage.getItem(imageURL);
 
         if (!obj_state) {
-            console.log("POS::NO_STATE");
             canvas.getObjects().forEach((obj) => {
                 if (
                     !(
@@ -198,12 +196,10 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                         obj.type === "group"
                     )
                 ) {
-                    console.log("RM: ", obj);
                     canvas.remove(obj);
                 }
             });
 
-            console.log("POS::ADDING NEW IMG");
             fabric.Image.fromURL(imageURL, function (img) {
                 let scale = Math.min(
                     canvas.width / img.width,
@@ -230,40 +226,41 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                 localStorage.setItem(imageURL, JSON.stringify(canvas));
             });
         } else {
-            console.log("POS::STATE_EXISTS");
-
-            console.log("POS::RM_ALL");
             canvas.clear();
-
-            console.log("Loading state for", imageURL);
-            console.log("Stored JSON:", obj_state);
-
             canvas.loadFromJSON(obj_state, function () {
-                console.log("BUILD FROM STATE COMPLETE");
                 canvas.renderAll();
-
-                // Rebuild text objects
-                console.log("CLEAR TXT OBJS");
                 text_objects = {};
                 canvas.getObjects().forEach((obj) => {
-                    console.log("obj: ", obj);
-                    if (
-                         obj._originalElement.src.includes("color")
-                    ) {
-                        console.info("this is product image: ", obj);
+                    console.info("Obj: ", obj);
+                    if (obj.type == 'rect') {
+                        obj.set({
+                            stay: true,
+                            stay_when_pos: true,
+                            hasControls: false,
+                            selectable: false,
+                            lockMovementX: true,
+                            lockMovementY: true,
+                            lockScalingX: true,
+                            lockScalingY: true,
+                            lockRotation: true,
+                        })
+                    }
+
+                    if (obj._originalElement.src.includes("color")) {
                         obj.set({
                             selectable: false,
                             hasControls: false,
                             excludeFromClipping: true,
                             product_image: true,
                         });
+
+                        canvas.sendToBack(obj);
                     }
 
                     if (
                         obj.type == "image" &&
                         obj._originalElement.src.includes("clipart")
                     ) {
-                        console.info("this is clipart: ", obj);
                         obj.set({
                             selectable: true,
                             hasControls: true,
@@ -272,7 +269,6 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                     }
 
                     if (obj.type === "textbox") {
-                        console.log("txt obj: ", obj);
                         if (obj.top < canvas.height / 2) {
                             text_objects["top_text"] = obj;
                             if (
@@ -281,10 +277,6 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                             ) {
                                 form.top_text.value = obj.text;
                             } else {
-                                console.warn(
-                                    "form.top_text is not a valid input element:",
-                                    form.top_text
-                                );
                             }
                         } else {
                             text_objects["bottom_text"] = obj;
@@ -295,17 +287,13 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                             ) {
                                 form.bottom_text.value = obj.text;
                             } else {
-                                console.warn(
-                                    "form.bottom_text is not a valid input element:",
-                                    form.bottom_text
-                                );
+
                             }
                         }
                     }
                 });
 
-                // Reapply clipping paths and groups
-                reapplyClippingPathsAndGroups();
+                // reapplyClippingPathsAndGroups();
                 mapTextObjectsToFormInputs();
             });
         }
@@ -315,13 +303,9 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
 
     // HANDLING COLOR SWITCH
     if (type == "color") {
-        console.log("changing color");
         let obj_state = localStorage.getItem(imageURL);
-        console.log("checking url: ", imageURL);
 
         if (!obj_state) {
-            console.log("COLOR::NO_STATE");
-            console.log("RM::ALL_EXCEPT_STAY");
 
             canvas.getObjects().forEach((obj) => {
                 if (
@@ -332,12 +316,10 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                         obj.type === "group"
                     )
                 ) {
-                    console.log("removing: ", obj);
                     canvas.remove(obj);
                 }
             });
 
-            console.log("ADDING NEW IMG");
             fabric.Image.fromURL(imageURL, function (img) {
                 let scale = Math.min(
                     canvas.width / img.width,
@@ -359,38 +341,44 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                 canvas.add(img);
                 canvas.sendToBack(img);
                 canvas.renderAll();
-                console.log("NEW IMG ADDED");
 
-                console.log("SAVING IN STATE");
                 localStorage.setItem(imageURL, JSON.stringify(canvas));
             });
 
             form.top_text.value = "";
             form.bottom_text.value = "";
         } else {
-            console.log("COLOR::STATE_EXISTS");
 
-            console.log("RM::ALL");
             canvas.clear();
 
-            console.log("Loading state for", imageURL);
-            console.log("Stored JSON:", obj_state);
 
             canvas.loadFromJSON(obj_state, function () {
-                console.log("BUILD FROM STATE COMPLETE");
                 canvas.renderAll();
 
-                console.log("CLEAR TXT OBJS");
                 text_objects = {};
                 canvas.getObjects().forEach((obj) => {
+                     if (obj.type == "rect") {
+                         obj.set({
+                             stay: true,
+                             stay_when_pos: true,
+                             hasControls: false,
+                             selectable: false,
+                             lockMovementX: true,
+                             lockMovementY: true,
+                             lockScalingX: true,
+                             lockScalingY: true,
+                             lockRotation: true,
+                         });
+                     }
                     if (obj._originalElement.src.includes("color")) {
-                        console.info("this is product image: ", obj);
                         obj.set({
                             selectable: false,
                             hasControls: false,
                             excludeFromClipping: true,
                             product_image: true,
                         });
+
+                        canvas.sendToBack(obj);
                     }
 
                     if (
@@ -404,7 +392,6 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                         });
                     }
                     if (obj.type === "textbox") {
-                        console.log("txt obj: ", obj);
                         if (obj.top < canvas.height / 2) {
                             text_objects["top_text"] = obj;
                         } else {
@@ -413,8 +400,7 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                     }
                 });
 
-                // Reapply clipping paths and groups
-                reapplyClippingPathsAndGroups();
+                // reapplyClippingPathsAndGroups();
                 mapTextObjectsToFormInputs();
             });
         }
@@ -428,96 +414,6 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
     }
 }
 
-function reapplyClippingPathsAndGroups() {
-    let canvas_defaults = getCanvasDefaults(canvas);
-    const params = {
-        ...canvas_defaults[product_type].box,
-    };
-
-    let boundingBox = new fabric.Rect({
-        ...params,
-        hasControls: false,
-        lockMovementX: true,
-        lockMovementY: true,
-        lockScalingX: true,
-        lockScalingY: true,
-        lockRotation: true,
-    });
-    canvas.add(boundingBox);
-
-    let clipPath = new fabric.Rect({
-        left: params.left,
-        top: params.top,
-        width: params.width,
-        height: params.height,
-        originX: "center",
-        originY: "center",
-        absolutePositioned: true,
-        stay: params.stay,
-        stay_when_pos: true,
-        hasControls: false,
-        lockMovementX: true,
-        lockMovementY: true,
-        lockScalingX: true,
-        lockScalingY: true,
-        lockRotation: true,
-    });
-
-    designGroup = new fabric.Group([], {
-        left: 0,
-        top: 0,
-        clipPath: clipPath,
-        selectable: false,
-        evented: true,
-        subTargetCheck: true,
-        interactive: true,
-        stay: params.stay,
-        stay_when_pos: true,
-        hasControls: false,
-        lockMovementX: true,
-        lockMovementY: true,
-        lockScalingX: true,
-        lockScalingY: true,
-        lockRotation: true,
-    });
-
-    canvas.add(designGroup);
-    canvas.designGroup = designGroup;
-
-    originalAdd = fabric.Canvas.prototype.add;
-
-    canvas.add = function (...objects) {
-        objects.forEach((obj) => {
-            if (obj !== boundingBox && !obj.excludeFromClipping) {
-                obj.clipPath = clipPath;
-                originalAdd.call(canvas, obj);
-            } else {
-                originalAdd.call(canvas, obj);
-            }
-        });
-        canvas.renderAll();
-        return canvas;
-    };
-
-    canvas.getObjects().forEach((obj) => {
-        if (obj.type === "rect" || obj.type === "group") {
-            obj.set({
-                hasControls: false,
-                selectable: false,
-                lockMovementX: true,
-                lockMovementY: true,
-                lockScalingX: true,
-                lockScalingY: true,
-                lockRotation: true,
-            });
-        }
-    });
-
-    // Reattach event listeners
-    mouseDown();
-    resizeObserve();
-}
-
 function handleDeleteOnKeyDown() {
     document.addEventListener("keydown", function (e) {
         if (e.key === "Delete") {
@@ -526,7 +422,6 @@ function handleDeleteOnKeyDown() {
                 if (active_text_obj === active) {
                     active_text_obj = null;
                     delete text_objects[active.input_id];
-                    console.log("active: ", active.input_id);
                     if (form[active.input_id]) {
                         form[active.input_id].value = "";
                     }
@@ -606,10 +501,9 @@ function addInnerBorder() {
             }
         });
         canvas.renderAll();
+        save_state(state.current_image_url);
         return canvas;
     };
-
-    save_state(state.current_image_url);
 }
 
 // _______________________________________________________________________
@@ -727,11 +621,9 @@ function handleFontFamilyInput(input) {
 }
 
 function handleTextInputs(inputs) {
-    console.log("fired");
     let canvas_defaults = getCanvasDefaults(canvas);
 
     if (inputs.length < 2) {
-        console.log("ONE INPUT LACKING");
         let missing = inputs[0].id === "top_text" ? "bottom_text" : "top_text";
 
         let clipHeight = canvas.height * 0.2;
@@ -771,8 +663,6 @@ function handleTextInputs(inputs) {
                     JSON.stringify(canvas)
                 );
             } else {
-                console.log("NO TEXT OBJ");
-                console.log("CREATING TEXT OBJ");
                 const clipHeight = canvas.height * 0.2;
                 const clipTop = canvas.height / 2 - clipHeight / 2;
                 text_objects[input.id] = new fabric.Textbox("", {
@@ -1010,10 +900,8 @@ function handleDesignSave() {
         .querySelector("#saveDesign")
         .addEventListener("click", function (e) {
             e.preventDefault();
-            console.log("Save fired");
 
             if (!state.front_image_url || !state.back_image_url) {
-                console.error("Front or Back image URL missing!");
                 return;
             }
 
@@ -1026,7 +914,6 @@ function handleDesignSave() {
 
             saveDesignAndImage(first_side, rand_key);
 
-            console.log(`Switching to ${second_side} design...`);
             loadImage(second_side_url, "pos");
 
             setTimeout(() => {
@@ -1038,7 +925,6 @@ function handleDesignSave() {
 }
 
 function saveDesignAndImage(side, rand_key) {
-    console.log(`Saving ${side} design...`);
 
     try {
         localStorage.setItem(
@@ -1074,7 +960,6 @@ function saveDesignAndImage(side, rand_key) {
             }
         }
     } catch (err) {
-        console.error("Failed to save design:", err);
         alert(
             "Unable to save design. Storage limit reached. Try clearing browser data or removing old designs."
         );
@@ -1096,11 +981,9 @@ function clearOldDesigns(currentKey) {
         localStorage.removeItem(key);
     });
 
-    console.log(`Cleared ${keysToRemove.length} old designs to make space`);
 }
 
 function showButtons(rand_key) {
-    console.log("Both designs & images saved successfully!");
 
     const preview_btn = document.querySelector("#previewDesign");
     preview_btn.style.display = "block";
@@ -1116,10 +999,8 @@ function handleAddToCart() {
         .querySelector("#addToCart")
         .addEventListener("click", function (e) {
             e.preventDefault();
-            console.log("Add to Cart fired");
 
             if (!state.front_image_url || !state.back_image_url) {
-                console.error("Front or Back image URL missing!");
                 return;
             }
 
@@ -1145,12 +1026,10 @@ function handleAddToCart() {
             axios
                 .post("/cart", formData)
                 .then((response) => {
-                    console.log(response.data);
 
                     alert("Item successfully added to cart");
                 })
                 .catch((error) => {
-                    console.error(error);
                 });
         });
 }
