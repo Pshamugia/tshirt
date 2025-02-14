@@ -246,13 +246,11 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                 console.log("CLEAR TXT OBJS");
                 text_objects = {};
                 canvas.getObjects().forEach((obj) => {
+                    console.log("obj: ", obj);
                     if (
-                        obj.product_image ||
-                        (obj.type === "image" &&
-                            obj._element &&
-                            obj._element.classList &&
-                            obj._element.classList.contains("canvas-img"))
+                         obj._originalElement.src.includes("color")
                     ) {
+                        console.info("this is product image: ", obj);
                         obj.set({
                             selectable: false,
                             hasControls: false,
@@ -260,6 +258,19 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                             product_image: true,
                         });
                     }
+
+                    if (
+                        obj.type == "image" &&
+                        obj._originalElement.src.includes("clipart")
+                    ) {
+                        console.info("this is clipart: ", obj);
+                        obj.set({
+                            selectable: true,
+                            hasControls: true,
+                            excludeFromClipping: false,
+                        });
+                    }
+
                     if (obj.type === "textbox") {
                         console.log("txt obj: ", obj);
                         if (obj.top < canvas.height / 2) {
@@ -372,18 +383,24 @@ function loadImage(imageURL, type = "color", backImageURL = "") {
                 console.log("CLEAR TXT OBJS");
                 text_objects = {};
                 canvas.getObjects().forEach((obj) => {
-                    if (
-                        obj.product_image ||
-                        (obj.type === "image" &&
-                            obj._element &&
-                            obj._element.classList &&
-                            obj._element.classList.contains("canvas-img"))
-                    ) {
+                    if (obj._originalElement.src.includes("color")) {
+                        console.info("this is product image: ", obj);
                         obj.set({
                             selectable: false,
                             hasControls: false,
                             excludeFromClipping: true,
                             product_image: true,
+                        });
+                    }
+
+                    if (
+                        obj.type == "image" &&
+                        obj._originalElement.src.includes("clipart")
+                    ) {
+                        obj.set({
+                            selectable: true,
+                            hasControls: true,
+                            excludeFromClipping: false,
                         });
                     }
                     if (obj.type === "textbox") {
@@ -949,6 +966,7 @@ function addClipArtToCanvas() {
             scaleX: scale,
             scaleY: scale,
             selectable: true,
+            hasControls: true,
             stay: true,
         });
 
