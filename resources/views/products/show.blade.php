@@ -44,15 +44,15 @@
 
         <br> <br>
 
-        
+
         <a href="{{ route('products.customize', $product->id) }}" class="btn btn-primary">
             <i class="fas fa-paint-brush"></i> Customize This Product
         </a>
     </div>
 
 
-   
-    
+
+
 
     <!-- Right Section -->
     <div class="col-md-8 text-center">
