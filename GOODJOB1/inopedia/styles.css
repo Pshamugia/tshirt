@@ -1,0 +1,41 @@
+/* CSS Document */
+
+#new a {
+height:50;
+background:url(images/buttons.jpg);
+width:105;
+display:block;
+
+
+}
+
+
+#new a:link {
+width:105;
+display:block;
+background:url(images/buttons.jpg);
+color:#CCCCCC;
+
+}
+
+#new a:visited {
+width:105;
+display:block;
+background:url(images/buttons.jpg);
+color:#CCCCCC;
+
+}
+
+#new a:active {
+width:105;
+ 
+color:#CCCCCC;
+background:url(images/buttons.jpg);
+
+}
+
+#new a:hover {
+width:105;
+display:block;
+color:#000000;
+}

@@ -1,0 +1,8 @@
+Array
+(
+    [name] => 001.JPG
+    [type] => image/jpeg
+    [tmp_name] => C:\Program Files\Ampps\tmp\phpB590.tmp
+    [error] => 0
+    [size] => 368359
+)

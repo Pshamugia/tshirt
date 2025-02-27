@@ -1,0 +1,29 @@
+﻿<table style="position:relative; left:-45px; top:30px;" width="1000px" align="center">
+   <tr>
+   <td valign="top"> 
+   <h2 style="position:relative; top:-50px; left:-15px; padding-bottom:15px;"> <div style="position:relative; margin-left:15px; height:20px; margin-top:1px; border-left:5px solid #2E3333; font-weight:100; font-size:20px;">  <k style="position:relative; padding-left:15px;"> პენცენტრის ყოველწლიური ჯილდო "თავისუფალი სიტყვა" </k>  </b> </div> </h2> <br> </td> <td valign="top"> </td>
+   <tr> 
+    <?
+      
+if ($_REQUEST['do'])
+{ 
+$a=mysql_query("select * from kultura_cxrili order by id desc limit 0,1");
+while ($b=mysql_fetch_array($a))
+{
+ ?> 
+	<td valign="top" width="400px" style="position:relative; top:-50px;"> 
+    
+                        <img src="<? echo $b['upload'];?>" width="400px"/></td>
+                         
+                         
+                         <td valign="top" width="650px" style="position:relative; padding-left:40px; top:-55px;">  
+                       <k>                                  
+                                 <? echo $b['satauri'];?>   </k>
+                                 
+                             
+                                 <div style="position:relative; font-size:14px;"> <? echo $b['full'];?> </div> </td>
+                                 
+                                 <? }} ?> 
+   
+   
+</tr></table>

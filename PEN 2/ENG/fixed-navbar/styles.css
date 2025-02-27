@@ -1,0 +1,69 @@
+  hgroup,   output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+aside, details, figcaption, figure, hgroup, section { display: block; }
+ol, ul { list-style: none; }
+
+ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; }  
+
+ 
+ 
+ 
+
+/* hidden fixed navigation */
+#fixedbar { 
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  background: rgba(0,0,0,0.75);
+  border-bottom:3px solid #FFFFFF;
+}
+
+#fixednav { 
+  display: block;
+  width: 1111px;
+  margin: 0 auto;
+  padding: 0px 50px;
+  
+}
+
+#fixednav li { }
+
+#fixednav li a {
+  display: block;
+  float: left;
+  font-size: 1.1em;
+   color: #FFFFFF;
+  line-height: 65px;
+  text-decoration: none;
+  padding: 0px 8px;
+  margin-right: 25px; 
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear; 
+}
+
+#fixednav li.selected a {
+	 
+  height:65px;
+
+}
+
+#fixednav li a:hover {
+  color: #E9F0F7;
+   height:65px;
+  
+}

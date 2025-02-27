@@ -1,0 +1,61 @@
+.calcBox {
+	float:left; 
+	width:375px;
+	padding:10px 15px;
+	padding-top:0; 
+	border:1px solid #D8DEEB; 
+	font-size:13px;
+	border-radius:3px;
+}
+
+.calcBox .title {
+	font-size:13px;
+ 	color:#000000;
+	padding:10px 10px;
+	background-color:#D8DEEB;
+	width:260px;
+ 
+	position:relative;
+ 
+ 
+	margin-bottom:15px;
+	float:left;
+}
+
+.calcBox .inpBox {
+	float:left;
+	width:100%;
+	padding-bottom:10px;
+}
+.calcBox .inpBox.bt{
+	padding:0;
+}
+.calcBox .inpBox.bt button{
+	background-color: #D8DEEB;
+    border: 1px solid #D8DEEB;
+    border-radius: 5px;
+    color: #000000;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 35px;
+    text-decoration: none;
+	width:100%;
+}
+.calcBox .inpBox.bt button:hover{
+	background-color:#DBD7D7;
+}
+.calcBox .inpBox label {
+	float:left;
+	padding-top: 4px;
+}
+
+.calcBox .inpBox input {
+	float: right;
+    height: 19px;
+    width: 65px;
+	font-size:13px;
+	color:#020202;
+}

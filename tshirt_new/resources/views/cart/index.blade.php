@@ -54,7 +54,7 @@
                                     </td>
                                     <td class="text-center align-middle">
                                         @if ($item->default_img)
-                                            <span class="badge bg-secondary">Standard</span>
+                                            <span class="badge bg-secondary">{{  $item->product->type }}</span>
                                         @else
                                             <span class="badge bg-primary">Custom</span>
                                         @endif

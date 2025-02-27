@@ -1,0 +1,8 @@
+GET https://api.bitfinex.com/v1/symbols_details HTTP/1.0
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+cookie: __cfduid=d30068a5f9791edeaa5c52fdee3c4cce11575656136; _ga=GA1.2.1659071141.1575656134; _gid=GA1.2.604019782.1576585967; cf_clearance=5c69033a7321f651986c3f0b340a13df7ebc348b-1576665885-0-250
+referer: https://api.bitfinex.com/v1/symbols_details
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72
+Host: api.bitfinex.com

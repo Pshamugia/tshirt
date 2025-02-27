@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     @vite([
         'resources/js/app.js',
@@ -31,6 +32,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">საწყისი</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ინსტრუქცია</a></li>
+
                     <li class="nav-item"><a class="nav-link" href="{{ route('cart.index') }}">კალათა</a></li>
                     @guest
                         <!-- Show Login & Register when not logged in -->

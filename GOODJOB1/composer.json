@@ -1,0 +1,6 @@
+{
+    "name": "mycomputer/teacher",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.17"
+    }
+}

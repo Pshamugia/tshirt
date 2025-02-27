@@ -12,7 +12,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <a href="{{ route('products.show', $product->id) }}">
-                        <img src="{{ asset('storage/' . $product->image1) }}" class="card-img-top" alt="{{ $product->title }}">
+                        <img src="{{ asset('storage/' . $product->image1) }}" class="card-img-top" id="image-hover" alt="{{ $product->title }}">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">{{ $product->title }}</h5>

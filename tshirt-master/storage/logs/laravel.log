@@ -529,3 +529,1807 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2025-02-18 16:04:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:05:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:06:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:07:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:08:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:09:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:10:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:11:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:12:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:13:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:14:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:15:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:16:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:17:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:18:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:19:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:20:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:21:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:22:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:23:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:24:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:25:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:26:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:27:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:28:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:29:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:30:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:31:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:32:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:33:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:34:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:35:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:36:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:37:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:38:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:39:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:40:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:41:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:42:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:43:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:44:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:45:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:46:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:47:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:48:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:49:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:50:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:51:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:52:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:53:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:54:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:55:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:56:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:57:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:58:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 16:59:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:00:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:01:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:02:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:03:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:04:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:05:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:06:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:07:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:08:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:09:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:10:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:11:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:12:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:13:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:14:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:15:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:16:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:17:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:18:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:19:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:20:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:21:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:22:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:23:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:24:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 17:25:35] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\tshirt-master\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1522
+Stack trace:
+#0 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1522)
+#2 C:\xampp\htdocs\tshirt-master\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1522): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\tshirt-master\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522
+Stack trace:
+#0 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1522)
+#2 C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1522): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\tshirt-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1522)
+[stacktrace]
+#0 {main}
+"} 
