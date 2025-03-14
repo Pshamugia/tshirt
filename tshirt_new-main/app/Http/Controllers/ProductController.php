@@ -53,6 +53,7 @@ class ProductController extends Controller
         'description' => 'required|string',
         'full_text' => 'nullable|string',
         'size' => 'nullable|string|max:50',
+        'type' => 'nullable|string|max:50',
         'quantity' => 'required|integer|min:0',
         'price' => 'required|numeric|min:0',
         'image1' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -69,6 +70,7 @@ class ProductController extends Controller
         'size' => $request->size,
         'quantity' => $request->quantity,
         'price' => $request->price,
+        'type' => $request->type,
     ]);
 
     // ✅ Update Images
@@ -95,12 +97,16 @@ class ProductController extends Controller
                 'product_id' => $product->id,
                 'color_name' => $color['color_name'],
                 'color_code' => $color['color_code'],
-                'front_image' => isset($color['front_image']) ? $color['front_image']->store('colors', 'public') : null,
-                'back_image' => isset($color['back_image']) ? $color['back_image']->store('colors', 'public') : null,
+                'front_image' => isset($color['front_image']) && $color['front_image'] instanceof \Illuminate\Http\UploadedFile
+                    ? $color['front_image']->store('colors', 'public')
+                    : ($color['existing_front_image'] ?? null),
+                'back_image' => isset($color['back_image']) && $color['back_image'] instanceof \Illuminate\Http\UploadedFile
+                    ? $color['back_image']->store('colors', 'public')
+                    : ($color['existing_back_image'] ?? null),
             ]);
         }
     }
-
+    
     return redirect()->route('admin.products.index')->with('success', 'Product updated successfully');
 }
 
@@ -113,6 +119,7 @@ class ProductController extends Controller
             'description' => $request->description,
             'full_text' => $request->full_text,
             'size' => $request->size,
+            'type' => $request->type,
             'quantity' => $request->quantity,
             'price' => $request->price,
             'image1' => $request->file('image1')->store('products', 'public'),
@@ -128,7 +135,7 @@ class ProductController extends Controller
                     'color_name' => $color['color_name'],
                     'color_code' => $color['color_code'],
                     'front_image' => $color['front_image']->store('colors', 'public'),
-                    'back_image' => $color['back_image']->store('colors', 'public'),
+                    'back_image' => isset($color['back_image']) && $color['back_image'] ? $color['back_image']->store('colors', 'public') : null,
 
                 ]);
             }

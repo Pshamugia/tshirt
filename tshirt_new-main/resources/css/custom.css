@@ -666,7 +666,6 @@ button {
     margin: 5px;
 }
 
-.navbar-collapse {
-    padding: 10px 10px 10px 10px !important;
-    background-color: blueviolet !important;
+.navbar .navbar-collapse {
+   float:right !important;
 }

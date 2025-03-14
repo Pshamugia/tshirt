@@ -23,8 +23,12 @@
         <div class="mb-3">
             <label class="form-label">Available Colors</label>
             <div id="colorSelection">
+                
                 @if ($colors->count() > 0)
                     @foreach ($colors as $index => $color)
+                    <input type="hidden" name="colors[{{ $index }}][existing_front_image]" value="{{ $color->front_image }}">
+<input type="hidden" name="colors[{{ $index }}][existing_back_image]" value="{{ $color->back_image }}">
+
                         <div class="color-block border p-3 mb-3" style="background-color: #9c9c9c; border-radius: 10px">
                             <div class="mb-2">
                                 <label>Color Name</label>
@@ -116,6 +120,16 @@
                 <img src="{{ asset('storage/' . $product->image4) }}" width="80">
             @endif
             <input type="file" name="image4" id="image4" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+            <label for="type" class="form-label">Product Type</label>
+            <select class="form-control" id="type" name="type" required>
+                <option value="">-- Select Type --</option>
+                <option value="shirt" {{ $product->type == 'shirt' ? 'selected' : '' }}>Shirt</option>
+                <option value="hat" {{ $product->type == 'hat' ? 'selected' : '' }}>Hat</option>
+            </select>
         </div>
 
         <button type="submit" class="btn btn-primary">Update Product</button>
