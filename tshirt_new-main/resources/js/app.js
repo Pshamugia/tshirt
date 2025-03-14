@@ -4,10 +4,12 @@ import main from "./main";
 
 document.addEventListener("DOMContentLoaded", function () {
     let current_url = window.location.href;
-
-    console.log("dom loaded app.js");
     if (current_url.includes("customize")) {
         main();
+    }
+
+    if (current_url.includes("home")) {
+        //
     }
 
     checkVisitor();

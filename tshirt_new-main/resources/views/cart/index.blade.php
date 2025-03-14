@@ -72,7 +72,7 @@
                                             data-id="{{ $item->id }}">
                                             <i class="fas fa-trash-alt"></i>
                                         </button>
-                                        @if(!$item->default_img)
+                                        @if (!$item->default_img)
                                             <a href="{{ route('cart.item.show', ['id' => $item->id]) }}"
                                                 class="btn btn-sm btn-outline-danger show-cart-item">
                                                 <i class="fas fa-eye"></i>

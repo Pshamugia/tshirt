@@ -5,17 +5,16 @@ body {
 
 @font-face {
     font-family: 'arial';
-    src: url('fonts/bpg_boxo-boxo.ttf') format('truetype');
+    src: url('../fonts/bpg_boxo-boxo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-   
 }
  
    
 
 @font-face {
     font-family: 'alk-rounded';
-    src: url('fonts/alk-rounded-mtav-med-webfont.ttf') format('truetype');
+    src: url('../fonts/alk-rounded-mtav-med-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
    
@@ -24,7 +23,7 @@ body {
 
 @font-face {
     font-family: 'Lobster-Regular';
-    src: url('fonts/Lobster-Regular.ttf') format('truetype');
+    src: url('../fonts/Lobster-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
    
@@ -33,7 +32,7 @@ body {
 
 @font-face {
     font-family: 'Orbitron';
-    src: url('fonts/Orbitron-VariableFont_wght.ttf');
+    src: url('../fonts/Orbitron-VariableFont_wght.ttf');
     font-weight: normal;
     font-style: normal;
    
@@ -43,7 +42,7 @@ body {
 
 @font-face {
     font-family: 'EricaOne';
-    src: url('fonts/EricaOne-Regular.ttf');
+    src: url('../fonts/EricaOne-Regular.ttf');
     font-weight: normal;
     font-style: normal;
    
@@ -52,7 +51,7 @@ body {
 
 @font-face {
     font-family: 'GloriaHallelujah';
-    src: url('fonts/GloriaHallelujah-Regular.ttf');
+    src: url('../fonts/GloriaHallelujah-Regular.ttf');
     font-weight: normal;
     font-style: normal;
    
@@ -62,7 +61,7 @@ body {
 
 @font-face {
     font-family: 'RubikBubbles';
-    src: url('fonts/RubikBubbles-Regular.ttf');
+    src: url('../fonts/RubikBubbles-Regular.ttf');
     font-weight: normal;
     font-style: normal;
    
@@ -116,17 +115,6 @@ body {
 }
 
 
-
-#forimage {
-    height: 230px;
-    transition: all .2s ease-in-out;
-  }
-  
-  .forimage {
-    width: 100%;
-    object-fit: cover;
-     
-  }
 
 
 .col-md-8 {
@@ -676,4 +664,9 @@ button {
     border: none;
     cursor: pointer;
     margin: 5px;
+}
+
+.navbar-collapse {
+    padding: 10px 10px 10px 10px !important;
+    background-color: blueviolet !important;
 }

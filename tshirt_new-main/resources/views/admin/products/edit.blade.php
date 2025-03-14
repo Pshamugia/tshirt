@@ -118,16 +118,6 @@
             <input type="file" name="image4" id="image4" class="form-control">
         </div>
 
-
-        <div class="mb-3">
-            <label for="type" class="form-label">Product Type</label>
-            <select class="form-control" id="type" name="type" required>
-                <option value="">-- Select Type --</option>
-                <option value="shirt" {{ $product->type == 'shirt' ? 'selected' : '' }}>Shirt</option>
-                <option value="hat" {{ $product->type == 'hat' ? 'selected' : '' }}>Hat</option>
-            </select>
-        </div>
-
         <button type="submit" class="btn btn-primary">Update Product</button>
     </form>
 </div>

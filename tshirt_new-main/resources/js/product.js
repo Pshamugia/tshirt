@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const zoomLevel = document.getElementById("zoom-level");
     const productImage = document.getElementById("product-image");
 
+    if (!quantityInput || !zoomLevel || !productImage) {
+        return;
+    }
+
     let zoom = 100;
 
     document.getElementById("increment").addEventListener("click", function () {
